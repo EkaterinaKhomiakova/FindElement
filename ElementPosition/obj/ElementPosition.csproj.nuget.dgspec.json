@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj": {}
+    "c:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj": {
+    "c:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj",
+        "projectUniqueName": "c:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj",
         "projectName": "ElementPosition",
-        "projectPath": "C:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj",
+        "projectPath": "c:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\ElementPosition.csproj",
         "packagesPath": "C:\\Users\\ILYA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\obj\\",
+        "outputPath": "c:\\Users\\ILYA\\Desktop\\WorkWithFunctions\\ElementPosition\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
