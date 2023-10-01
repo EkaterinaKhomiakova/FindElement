@@ -1,0 +1,14 @@
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\bin\Debug\net7.0\ElementPosition.exe
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\bin\Debug\net7.0\ElementPosition.deps.json
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\bin\Debug\net7.0\ElementPosition.runtimeconfig.json
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\bin\Debug\net7.0\ElementPosition.dll
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\bin\Debug\net7.0\ElementPosition.pdb
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ElementPosition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ElementPosition.AssemblyInfoInputs.cache
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ElementPosition.AssemblyInfo.cs
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ElementPosition.csproj.CoreCompileInputs.cache
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ElementPosition.dll
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\refint\ElementPosition.dll
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ElementPosition.pdb
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ElementPosition.genruntimeconfig.cache
+C:\Users\ILYA\Desktop\WorkWithFunctions\ElementPosition\obj\Debug\net7.0\ref\ElementPosition.dll
