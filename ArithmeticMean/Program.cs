@@ -1,6 +1,6 @@
-﻿// Задайте двумерный массив. 
-// Напишите программу,которая поменяет местами первую и последнюю сроку массива
-
+﻿// Составить частотный словарь элементов двумерного массива. 
+// Частотный словарь содержит информацию о том,
+// сколько раз встречается элемент входных данных
 int[,] InputMatrix()
 {
   Console.Write("Введите размер матрицы: ");
@@ -18,32 +18,39 @@ int[,] InputMatrix()
   return matrix;
 }
 
-
-void ChangeArray(int[,] matrix)
+int[] Convert2dTo1d(int[,] matrix)
 {
-  int temp;
-  for (int i = 0; i < matrix.GetLength(1); i++)
-  {
-    temp = matrix[0, i];
-    matrix[0, i] = matrix[matrix.GetLength(0) - 1, i];
-    matrix[matrix.GetLength(0) - 1, i] = temp;
-  }
-
-}
-
-void PrintArray(int[,] matrix)
-{
+  int k = 0;
+  int[] array = new int[matrix.GetLength(0) * matrix.GetLength(1)];
   for (int i = 0; i < matrix.GetLength(0); i++)
   {
     for (int j = 0; j < matrix.GetLength(1); j++)
     {
-      Console.Write($"{matrix[i, j]} \t");
+      array[k++] = matrix[i, j];
     }
-    Console.WriteLine();
   }
+  return array;
+}
 
+void PrintFr(int[] array)
+{
+  int count = 1;
+  int oldValue = array[0];
+  for (int i = 1; i < array.Length; i++)
+  {
+    if (oldValue == array[i])
+      count++;
+    else
+    {
+      Console.WriteLine($"{oldValue} встречается в массиве:{count} раз");
+      count = 1;
+      oldValue = array[i];
+
+    }
+  }
+  Console.WriteLine($"{oldValue} встречается в массиве:{count} раз");
 }
 int[,] matrix = InputMatrix();
-ChangeArray(matrix);
-Console.WriteLine();
-PrintArray(matrix);
+int[] array = Convert2dTo1d(matrix);
+Array.Sort(array);
+PrintFr(array);
